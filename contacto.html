@@ -24,14 +24,36 @@
 
         <main>
             <form>
-                <label>Nombre y Apellido</label>
+                <label for="nombreapellido">Nombre y Apellido</label>
                 <input type="text" id="nombreapellido">
 
-                <label>Correo electrónico</label>
+                <label for="correoelectronico">Correo electrónico</label>
                 <input type="text" id="correoelectronico">
 
-                <label>Teléfono</label>
+                <label for="telefono">Teléfono</label>
                 <input type="text" id="telefono">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" cols="70" rows="10"></textarea>
+
+                <div>
+                <p>¿Cómo le gustaría que lo contactemos?</p>
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contacto" value="email" id="radio-email">
+
+                <label for="radio-telefono">Telefono</label>
+                <input type="radio" name="contacto" value="telefono" id="radio-telefono">
+
+
+                <label for="radio-whatsap">Whatsap</label>
+                <input type="radio" name="contacto" value="whatsap" id="radio-whatsap">
+
+                </div>
+
+                <label> <input type="checkbox" >¿Le gustaría recibir novedades?</label>
+
+
+
 
                 <input type="submit" value="Enviar Formulario">
 
