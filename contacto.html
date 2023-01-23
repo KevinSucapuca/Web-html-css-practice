@@ -11,7 +11,7 @@
     <body>
         <header >
             <div class="caja">
-                <h1><img src="imagenes/logo.png"></h1>
+                <h1><img src="imagenes/logo.png" alt="Logo de la barbería"></h1>
                 <nav>
                     <ul>
                         <li> <a href="index.html">Home</a>  </li>
@@ -36,8 +36,8 @@
                 <label for="mensaje">Mensaje</label>
                 <textarea id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
 
-                <div>
-                <p>¿Cómo le gustaría que lo contactemos?</p>
+                <fieldset>
+                <legend>¿Cómo le gustaría que lo contactemos?</legend>
                 
                 
                 <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>    
@@ -45,32 +45,26 @@
                 
                 <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
 
-                
-                
                 <label for="radio-whatsap"><input type="radio" name="contacto" value="whatsap" id="radio-whatsap" checked>Whatsap</label>
-                </div>
-                <div>
-                    <p>¿En qué horario prefire ser atendido?</p>
+                </fieldset>
+                <fieldset>
+                    <legend>¿En qué horario prefire ser atendido?</legend>
                     <select name="" id="">
                         <option value="1">Mañana </option>
                         <option value="2">Tarde</option>
                         <option value="3" >Noche</option>
                     </select>
-                </div>
+                </fieldset>
 
                 <label class="checkbox"> <input type="checkbox" checked>¿Le gustaría recibir novedades?</label>
-
-
-
-
-                <input type="submit" value="Enviar Formulario">
+                <input type="submit" value="Enviar Formulario" class="enviar">
 
 
             </form>
 
         </main>
         <footer>
-            <img src="imagenes/logo-blanco.png">
+            <img src="imagenes/logo-blanco.png" alt="Logo de la barbería">
             <p class="copyright">
                 &copy Copyright Barbería Alura - 2020
             </p>
