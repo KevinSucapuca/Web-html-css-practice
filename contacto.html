@@ -25,16 +25,16 @@
         <main>
             <form>
                 <label for="nombreapellido">Nombre y Apellido</label>
-                <input type="text" id="nombreapellido" class="input-padron">
+                <input type="text" id="nombreapellido" class="input-padron" required>
 
                 <label for="correoelectronico">Correo electrónico</label>
-                <input type="email" id="correoelectronico" class="input-padron">
+                <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
 
                 <label for="tel">Teléfono</label>
-                <input type="text" id="telefono" class="input-padron">
+                <input type="text" id="telefono" class="input-padron" required placeholder="(XX)XXXXXXXXX">
 
                 <label for="mensaje">Mensaje</label>
-                <textarea id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
+                <textarea id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
 
                 <div>
                 <p>¿Cómo le gustaría que lo contactemos?</p>
@@ -47,18 +47,18 @@
 
                 
                 
-                <label for="radio-whatsap"><input type="radio" name="contacto" value="whatsap" id="radio-whatsap">Whatsap</label>
+                <label for="radio-whatsap"><input type="radio" name="contacto" value="whatsap" id="radio-whatsap" checked>Whatsap</label>
                 </div>
                 <div>
                     <p>¿En qué horario prefire ser atendido?</p>
                     <select name="" id="">
                         <option value="1">Mañana </option>
                         <option value="2">Tarde</option>
-                        <option value="3">Noche</option>
+                        <option value="3" >Noche</option>
                     </select>
                 </div>
 
-                <label class="checkbox"> <input type="checkbox" >¿Le gustaría recibir novedades?</label>
+                <label class="checkbox"> <input type="checkbox" checked>¿Le gustaría recibir novedades?</label>
 
 
 
