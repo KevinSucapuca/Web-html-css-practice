@@ -134,10 +134,26 @@ form label, form legend{
     color: #ffffff;
     background: orange;
     border: none;
-    transition: 2s background;
+    transition: 1s all;
     cursor: pointer;
 }
 
 .enviar:hover{
     background: olivedrab;
+    transform: scale(1.2);
+    
+}
+
+table{
+    margin: 40px 40px;
+}
+thead{
+    background:#555555;
+    color:white;
+    font-weight:bold;
+}
+
+td,th{
+border: 1px solid black;
+padding: 8px 15px;
 }
