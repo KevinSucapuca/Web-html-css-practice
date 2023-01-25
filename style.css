@@ -104,7 +104,13 @@ footer{
 }
 
 form{
-    margin: 40px 0;
+width: 100%;
+max-width: 600px;
+margin: 30px auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
     }
 
 form label, form legend{
@@ -122,6 +128,11 @@ form label, form legend{
     
 
 }
+
+
+
+
+
 
 .checkbox{
     margin: 20px 0;
